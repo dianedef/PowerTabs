@@ -1,7 +1,7 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "powertabs",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
+  "description": "",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -12,12 +12,13 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/http": "^0.6.0",
+    "@nuxt/http": "0.6.2",
     "@nuxtjs/tailwindcss": "3.4.2",
-    "nuxt": "2.14.12",
-    "reqlim": "^0.0.0"
+    "nuxt": "2.15.0",
+    "reqlim": "0.0.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^3.4.2"
-  }
+  },
+  "keywords": []
 }

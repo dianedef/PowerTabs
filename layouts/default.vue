@@ -1,8 +1,20 @@
 <template>
   <div class="container">
-    <Nuxt/>
+    <Nav/>
+    <Container/>
   </div>
 </template>
+
+<script>
+import Nav from "~/components/Nav.vue";
+import Container from "~/components/Container.vue";
+export default {
+  components: {
+    Container,
+    Nav
+  },
+};
+</script>
 
 <style>
 html {
